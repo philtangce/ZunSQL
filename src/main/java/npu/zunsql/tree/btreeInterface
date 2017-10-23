@@ -156,8 +156,5 @@ String Svalue;
 整个数据库中只有一张表
 不考虑主键为多列的情况
 只是用了写锁，排他写
-eg.
-Database zundb;
-zundb.sqliteBtreeCreateTable(sizeof(int)，sizeof(char)*5);
-//建立一个两列的表，第一列为int，第二列为长度为5的char，第一列为主键长度
+
 
